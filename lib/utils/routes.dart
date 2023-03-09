@@ -3,7 +3,7 @@ import 'package:forms_and_fields/views/registration_page.dart';
 import 'package:forms_and_fields/views/splash.dart';
 import 'package:get/get.dart';
 
-import '../views/sub_registration_page.dart';
+import '../views/add_pet.dart';
 
 class GetRoutes {
   static const splash = '/';
@@ -14,7 +14,7 @@ class GetRoutes {
   static var routes = [
     GetPage(name: splash, page: () => const SplashPage()),
     GetPage(name: register, page: () => const RegisterPage()),
-    GetPage(name: home, page: () => const HomeScreen()),
-    GetPage(name: sub, page: () => const SubRegisterPage()),
+    GetPage(name: home, page: () => HomeScreen()),
+    //GetPage(name: sub, page: () => const SubRegisterPage()),
   ];
 }
