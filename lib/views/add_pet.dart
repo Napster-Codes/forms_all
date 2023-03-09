@@ -42,7 +42,7 @@ class _SubRegisterPageState extends State<SubRegisterPage> {
         builder: (BuildContext context) {
           return AlertDialog(
             title: const Text(
-              "Pick image from?",
+              "Pick image from where?",
               style: TextStyle(
                   fontSize: 17,
                   fontWeight: FontWeight.w400,
